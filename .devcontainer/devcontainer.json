@@ -1,0 +1,9 @@
+{
+  "name": "data_science_hub",
+  "dockerComposeFile": "../docker-compose.yml",
+  "service": "data_science_hub",
+  "workspaceFolder": "/workspace",
+  "extensions": [
+    "anthropic.claude-code"
+  ]
+}

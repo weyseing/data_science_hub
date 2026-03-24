@@ -1,0 +1,9 @@
+services:
+  data_science_hub:
+    build: .
+    container_name: data_science_hub
+    volumes:
+      - .:/workspace
+      - ~/.claude:/root/.claude          # persist Claude Code config & auth
+    stdin_open: true
+    tty: true
