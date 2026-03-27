@@ -1,12 +1,42 @@
-# Data Engineering Manager — Interview Prep
+# Data Science Manager — Interview Prep
+
+## Target JD: BAT (British American Tobacco)
+- **Job Title**: Data Science Manager
+- **Company**: BAT — Digital Business Solution team
+- **Location**: Subang Jaya, Malaysia
+- **Reports to**: APMEA North Head of D&A
+- **Team size**: 1 internal + 2 contractors
+- **Geographic Scope**: Global
+
+### JD Key Themes
+- End-to-end ML/analytics lifecycle: problem framing → data exploration → modeling → validation → deployment
+- Models: segmentation, churn propensity, uplift modeling, forecasting, clustering
+- Data from **Microsoft Fabric / Data Warehouse** using **T-SQL + Python**
+- Cross-functional: works with Business Analysts, BI Developers, Data Engineers, Solution Managers
+- MLOps: CI/CD, model monitoring, automated retraining (preferred)
+- Analytics governance, documentation, explainability, responsible AI
+- Azure cloud environment
+
+### JD Requirements
+- 7+ years data science/analytics, 3+ years management
+- SQL/Python hands-on, 2+ ML models deployed to production
+- Azure or similar cloud, MLOps components
+- FMCG/retail/consumer insights domain is a plus
+
+### Fit Notes
+- Strong match: team leadership, data engineering coordination, pipeline/lakehouse, governance, cross-functional collaboration
+- Angle to emphasize: DS/modeling experience (dimensional modeling, analytics enablement), model lifecycle, data quality
+- Scale framing: smaller team (1+2) — position as intentional focus on technical depth over headcount
+
+---
 
 ## Role Context
-- **Position**: Data Engineering Manager (mix of Data Engineering + Data Science/Analytics)
-- **Company**: General — not company-specific
-- **Product**: Data platform — realtime streaming pipelines, lakehouse/data warehouse, analytics, ML/data science enablement
-- **Team**: Manager leading a mixed squad of data engineers + data scientists + analytics engineers
+- **Position**: Data Science Manager
+- **Company**: BAT (British American Tobacco) — Digital Business Solution
+- **Product**: Advanced analytics & ML solutions — segmentation, churn, uplift modeling, forecasting; data from Microsoft Fabric/DWH
+- **Team**: 1 internal + 2 contractors; cross-functional with BAs, BI Devs, Data Engineers, Solution Managers
 - **Round**: Technical interview
-- **Interviewer**: Expects technical depth across both data engineering and analytics/data science + leadership credibility
+- **Interviewer**: Expects technical depth in DS/ML modeling + lifecycle management + leadership credibility; reports to APMEA North Head of D&A
 - **Format**: 1 hour, screen-share slides as conversation anchors (not a presentation)
 
 ## Interview Strategy
@@ -43,14 +73,16 @@ The interviewer will interrupt and dig in. That is expected and good.
 | 6. Closing | 10 | Why This Role — past experience mapped to what this role needs |
 
 ## Framing Notes
-- **Mixed discipline**: Frame as a leader who bridges data engineering (pipelines, infra) and data science/analytics (modeling, insight delivery) — not purely one or the other.
+- **Primary lens**: This is a DS-first role — lead with modeling, ML lifecycle, and analytics insight delivery. DE background is a differentiator, not the headline.
 - **Hard problem DS**: Data analytics/modeling — dimensional modeling decisions, star schema vs data vault, slowly changing dimensions (SCDs), semantic layer design.
-- **Hard problem DE**: Realtime streaming — exactly-once semantics with Kafka + Flink, late/out-of-order event handling, what broke first.
+- **Hard problem DE**: Realtime streaming — exactly-once semantics with Kafka + Flink, late/out-of-order event handling, what broke first. Reframe as: "infra I built to feed clean data into models."
+- **MLOps angle**: Tie CI/CD (GitLab CI) and monitoring (Datadog/New Relic) experience to model deployment pipelines and production model monitoring — BAT explicitly wants MLOps.
+- **Azure gap**: Candidate background is AWS — acknowledge, bridge to transferable cloud fundamentals and prior work with similar managed services.
 - **Team hiring**: Frame slides as "what I look for" and "how I structure the team" rather than claiming direct hire authority.
-- **Scale awareness**: Calibrate examples to the actual team size context — avoid enterprise-only patterns.
+- **Scale framing**: BAT team is 1+2 — don't lead with "13+ engineers." Position as: led at scale, now focused on technical depth and direct delivery.
 
 ## Remaining Placeholders
-No open placeholders. Slide 10 (closing) uses general language — reusable across roles.
+- Slide 10 (closing) still uses general language — needs to be updated for BAT specifically (APMEA D&A, analytics product delivery, FMCG/commercial analytics context).
 
 ## Build Notes
 - Template system: Inter + DM Serif Display fonts, CSS custom properties, card/grid/timeline components
